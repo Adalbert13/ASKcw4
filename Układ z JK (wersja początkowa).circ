@@ -116,7 +116,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(440,270)" to="(480,270)"/>
     <wire from="(540,240)" to="(570,240)"/>
     <wire from="(510,300)" to="(530,300)"/>
-    <wire from="(230,330)" to="(230,370)"/>
     <wire from="(460,290)" to="(480,290)"/>
     <wire from="(460,250)" to="(480,250)"/>
     <wire from="(510,270)" to="(520,270)"/>
@@ -136,6 +135,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(430,320)" to="(530,320)"/>
     <wire from="(290,250)" to="(330,250)"/>
     <wire from="(530,300)" to="(530,320)"/>
+    <wire from="(230,340)" to="(230,370)"/>
     <wire from="(510,290)" to="(550,290)"/>
     <wire from="(290,150)" to="(290,250)"/>
     <wire from="(520,160)" to="(520,260)"/>
@@ -160,22 +160,21 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(240,290)" to="(250,290)"/>
     <wire from="(250,240)" to="(450,240)"/>
     <wire from="(310,230)" to="(310,350)"/>
-    <comp lib="7" loc="(510,230)" name="7476"/>
     <comp lib="0" loc="(520,130)" name="Ground">
       <a name="facing" val="north"/>
     </comp>
-    <comp lib="1" loc="(380,270)" name="AND Gate"/>
+    <comp lib="1" loc="(300,350)" name="NOT Gate"/>
+    <comp lib="7" loc="(510,230)" name="7476"/>
+    <comp lib="0" loc="(230,340)" name="Clock">
+      <a name="facing" val="south"/>
+    </comp>
     <comp lib="0" loc="(240,290)" name="Pin">
       <a name="tristate" val="false"/>
     </comp>
-    <comp lib="0" loc="(230,330)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-    </comp>
     <comp lib="0" loc="(470,130)" name="Power"/>
-    <comp lib="1" loc="(380,210)" name="OR Gate"/>
-    <comp lib="1" loc="(300,350)" name="NOT Gate"/>
     <comp lib="1" loc="(620,260)" name="AND Gate"/>
+    <comp lib="1" loc="(380,210)" name="OR Gate"/>
+    <comp lib="1" loc="(380,270)" name="AND Gate"/>
     <comp lib="5" loc="(640,260)" name="LED"/>
   </circuit>
 </project>
